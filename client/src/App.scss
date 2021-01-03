@@ -1,0 +1,130 @@
+$blue: #1877F2;
+$green: #42B72A;
+
+// don't ask about these names
+$theme-colors: (
+  "dark": #ececec,
+  "light": #5916a7,
+  "warning": #855dc9,
+);
+
+$border-radius: 0;
+
+$gray-600: rgb(245, 245, 245);
+
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(
+    203deg,
+    rgba(32, 18, 226, 0.9) 0%,
+    rgba(97, 157, 185, 0.9) 50%,
+    rgba(153, 190, 238, 0.9) 100%,
+  )
+}
+
+.user-div:hover{
+  background-color: rgb(235, 235, 235)
+}
+
+.messages-box{
+  height: 495px;
+  overflow-y: scroll;
+
+  scrollbar-width: none;
+
+  &::-website-scrollbar {
+    display: none;
+  }
+}
+
+.profile-box{
+  height: 550px;
+  overflow-y: scroll;
+
+  scrollbar-width: none;
+
+  &::-website-scrollbar {
+    display: none;
+  }
+
+  align-items: center;
+}
+
+.pro-pic{
+  width: 50px;
+  height: 50px;
+  object-fit: 'cover';
+  border-radius: 50%;
+}
+
+.msg-input::placeholder{
+  color: rgba(0,0,0, 0.5);
+}
+
+.default-info{
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  margin-bottom: 0.5rem;
+
+}
+
+.default-display{
+  color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  margin-bottom: 7rem;
+  font-size: 26px;
+  font-style: oblique;
+}
+
+.default-match{
+  color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  padding-left: 23px;
+  padding-right: 23px;
+  margin-top: 12rem;
+  font-size: 18px;
+  font-style: oblique;
+}
+
+// .react-button-popover{
+//   height: 30px;
+// }
+
+.react-icon-button{
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  padding-top: 0;
+  padding-bottom: 0;
+
+  font-size: 1rem;
+  transition: 0.25s;
+
+  &:hover{ 
+    text-decoration:none;
+    font-size: 1.5rem;
+  }
+}
+
+.react-button-smile-default{
+  opacity: 0;
+
+  &:hover{ 
+    opacity: 100;
+  }
+}
+.react-button-smile-clicked{
+  opacity: 100;
+}
+
+.btn:focus{
+  box-shadow: none;
+}
+
+.reactions-div{
+  position: absolute;
+  right: -7px;
+  bottom: -10px;
+  font-size: 0.8rem;
+}
