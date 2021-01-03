@@ -63,6 +63,10 @@ cd into the backend directory and run the following command:
 sequelize db:migrate
 ```
 
+right now, all the db data is being stored on a local instance (and i also forgot to add db seeds), so it'll be empty from the start. you'll have to make your own data (register your own users, send your own messages back and forth).
+
+in the future, when we deploy (most likely to AWS) we'll make sure it's hosted
+
 if this or any of the above steps don't work (i'm most likely missing something), please message me (Will) and I can try and troubleshoot
 
 ## Running the app
