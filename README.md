@@ -63,9 +63,9 @@ cd into the backend directory and run the following command:
 sequelize db:migrate
 ```
 
-if this (or any of the above steps) doesn't work, please message me (Will) and I can try and troubleshoot
+if this or any of the above steps don't work (i'm most likely missing something), please message me (Will) and I can try and troubleshoot
 
-## Running
+## Running the app
 
 in one terminal window, cd into backend and run 
 ```
