@@ -20,7 +20,7 @@ you will also want to setup a connection in the MySQL workbench matching the use
 
 ### Sequelize 
 
-We want this cli globally (-g tag), so run 
+we want this cli globally (-g tag), so run 
 
 ```
 npm install -g sequelize-cli
@@ -28,6 +28,7 @@ npm install -g sequelize-cli
 
 ### Any code editor of your choice
 
+personally i used VSCode, but it is up to you
 ## Installation
 
 
