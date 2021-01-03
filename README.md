@@ -79,7 +79,7 @@ in another terminal window, cd into client and run
 ```
 npm start
 ```
-to start the React app
+to start the React app on port 3000
 make sure the server is running at all times when using the client, or the client will crash!
 
 ## happy coding!
