@@ -95,7 +95,8 @@ export default function Message({ message, instructor }) {
                 })}>
                     {message.reactions.length > 0 && (
                         <div className="reactions-div bg-dark px-1 rounded-pill"> 
-                        {reactionIcons} {message.reactions.length} 
+                        {reactionIcons} 
+                        {/* {message.reactions.length}  */}
                         </div>
                     )}
                     <p className={classNames("mb-0", {
